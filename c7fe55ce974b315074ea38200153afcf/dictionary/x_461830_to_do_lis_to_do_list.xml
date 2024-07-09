@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fb5f9502978b315074ea38200153afc8" extends="task" label="To do list" max_length="40" name="x_461830_to_do_lis_to_do_list" type="collection"/>
+    <element db_object_id="fb5f9502978b315074ea38200153afc8" extends="task" label="To do list" max_length="40" name="x_461830_to_do_lis_to_do_list" type="collection">
+        <element label="Meeting Time" max_length="40" name="u_glide_time_1" type="glide_time"/>
+        <element label="date-time" max_length="40" name="u_date_time" type="calendar_date_time"/>
+        <element default="0" label="Fee" max_length="20" name="fee" type="currency"/>
+        <element default="0" label="cost" max_length="20" name="cost" type="currency"/>
+        <element label="appointment time" max_length="40" name="appointment_time" type="glide_time"/>
+    </element>
 </database>
